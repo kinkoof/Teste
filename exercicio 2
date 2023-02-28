@@ -1,0 +1,21 @@
+
+
+numero = int(input('Digite o numero: '))
+
+
+anterior = 0
+proximo = 0
+
+
+while(proximo <= numero ):
+    
+    proximo = proximo + anterior
+    anterior = proximo - anterior
+    if(proximo == 0):
+        proximo = proximo + 1 
+
+    if (numero == proximo):
+        print('O numero {} pertence a sequencia Fibonacci'.format(proximo))
+
+    else:
+        print('O numero {} não pertence a sequencia Fibonacci'.format(proximo)) 
