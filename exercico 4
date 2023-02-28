@@ -1,0 +1,14 @@
+SP = 67836.43
+RJ = 36678.66
+MG = 29229.88
+ES = 27165.48
+Outros = 19849.53
+
+todos_estados = [SP, RJ, MG, ES, Outros]
+
+for estados in todos_estados:
+
+    total_mes = sum(todos_estados)
+    porcentagem_mes2 = estados * 100 / total_mes
+    print(porcentagem_mes2)
+
