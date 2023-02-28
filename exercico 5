@@ -1,0 +1,12 @@
+
+letras = 'macaco' 
+
+letra_contraria = []
+
+quantidade=len(letras)
+while quantidade > 0:
+    letra_contraria += letras[quantidade-1]
+    quantidade = quantidade - 1
+
+
+print(letra_contraria)
